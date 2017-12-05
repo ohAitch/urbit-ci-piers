@@ -1,0 +1,19 @@
+{
+  "name": "web-pirs",
+  "version": "1.0.0",
+  "description": "Indexes https://ci-piers.urbit.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "urbit"
+  ],
+  "author": "~fyr",
+  "license": "ISC",
+  "dependencies": {
+    "livescript": "^1.5.0",
+    "micro": "^9.0.2"
+  }
+}

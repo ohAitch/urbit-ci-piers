@@ -1,3 +1,4 @@
+_ = require \lodash
 storage = (require \@google-cloud/storage)!
 {create-element:e} = require \react
 {render-to-static-markup:render} = require \react-dom/server
@@ -8,7 +9,7 @@ module.exports = (req,res)->
   res.end render e \html {},
     e \head {} e \title {} "Yo"
     e \body {} e \ul {},
-      files.map ({name,metadata:{updated}})->
+      _.sort-by files, (.metadata.updated) .map ({name,metadata:{updated}})->
         e \li {key:name},
           e \b {} updated
           " "

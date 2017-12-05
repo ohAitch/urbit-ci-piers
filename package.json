@@ -13,12 +13,13 @@
   "author": "~fyr",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/storage": "^1.5.1",
     "livescript": "^1.5.0",
     "lodash": "^4.17.4",
     "micro": "^9.0.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "now": {
     "alias": "urbit-ci-piers"

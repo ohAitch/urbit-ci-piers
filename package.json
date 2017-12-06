@@ -22,6 +22,7 @@
     "request-promise": "^4.2.2"
   },
   "now": {
-    "alias": "urbit-ci-piers"
+    "alias": "urbit-ci-piers",
+    "public": true
   }
 }
